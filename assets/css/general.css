@@ -1,0 +1,86 @@
+:root {
+  --titulo-color: rgb(59, 238, 89);
+  --subtitulo-color: rgb(255, 255, 70);
+  --texto: #f9ffff;
+}
+
+.relleno1 {
+  background: linear-gradient(to left, #ff00cc, #333399);
+  color: #f9ffff;
+  border: none;
+}
+.relleno1:hover {
+  color: cyan;
+}
+
+.dropdown-item:hover {
+  background: linear-gradient(to left, #333399, #ff00cc);
+  color: #f9ffff;
+}
+
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #191821;
+}
+
+.titulo_color {
+  color: var(--titulo-color);
+}
+
+.subtitulo_color {
+  color: var(--subtitulo-color);
+}
+
+.texto_color {
+  color: var(--texto);
+}
+
+ol, ul {
+  font-size: 19px;
+  padding-left: 15px;
+}
+
+.imagenjumbo {
+  background: linear-gradient(rgba(0, 0, 0, 0.225), rgba(0, 0, 0, 0.329)), url('../img/wallpaper1.jpg');
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+
+.navbar-toggler {
+  background-color: rgba(241, 223, 29, 0.599)!important;
+  margin-right: 19px;
+  margin-top: 18px;
+}
+
+/* logo YomaColor */
+body a img {
+  height: 87px;
+  width: 85px;
+  padding-top: 19px;
+}
+
+.navbar-collapse {
+  justify-content: end;
+  
+}
+
+/* imagenes del contenido */
+.content img {
+  height: 250px;
+  object-fit: cover;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+
+footer .dropdown {
+  display: flex;
+  justify-content: center;  
+}

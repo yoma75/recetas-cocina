@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Fredy Colorado">
+  <meta name="Description" content="Mis recetas de cocina" />
+  <meta name="keywords" content="recetas, cocina, entradas, fuertes, ceviches">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/general.css">
+  <link rel="stylesheet" href="./assets/css/porafolio.css">
+  <link rel="shortcut icon" href="./assets/img/pestana.png" type="image/x-icon">
+  <title>Mis Recetas de Cocina</title>
+</head>
+
+<body>
+  <div class="jumbotron imagenjumbo">
+    <nav class="navbar navbar-expand-lg mb-5">
+      <a class="navbar-brand text-light" href="#"><img src="./assets/img/logos/logo7.1.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse p-5" id="navbarNav">
+        <ul class="navbar-nav text-center">
+          <li class="nav-item">
+            <a class="nav-link text-light mr-4" href="./assets/html/alimentos.html">Alimentos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light mr-4" href="./assets/html/tecnicas.html">Técnicas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light mr-4" href="./assets/html/recetas.html">Recetas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light mr-4" href="./assets/html/terminologia.html">Terminología</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <h1 class="text-light font-weight-bold text-center">Fredy Colorado</h1>
+  </div> <!-- / jumbotron-->
+
+  <!-- main -->
+  <div class="container">
+    <h2 class="text-light pt-4 pb-3 ">CONTENIDO</h2>
+    <div id="myBtnContainer">
+      <button class="btn active" onclick="filterSelection('all')"> Ver todo</button>
+      <button class="btn" onclick="filterSelection('nature')"> Entradas</button>
+      <button class="btn" onclick="filterSelection('cars')"> Fuertes</button>
+      <button class="btn" onclick="filterSelection('people')"> Postres</button>
+    </div>
+
+    <div class="row pt-4">
+      <div class="column nature">
+        <div class="content">
+          <img src="./assets/img/img_ceviches/crobalo.jpg" alt="ceviche de Robalo">
+          <h4 class="pt-3 text-center">Ceviche de Robalo</h4>
+          <p class="text-center">Robalo, zumo de limon cebolla roja, cilantro, pimentón rojo, lamaninas de maduro.</p>
+        </div>
+      </div>
+      <div class="column nature">
+        <div class="content">
+          <img src="./assets/img/img_ceviches/cpulpo.jpg" alt="ceviche de pulpo">
+          <h4 class="pt-3 text-center">Ceviche de pulpo</h4>
+          <p class="text-center">Pulpo laminado, zumo de limon, aceite de oliva, pimentón rojo, cebolla roja.</p>
+        </div>
+      </div>
+      <div class="column nature">
+        <div class="content">
+          <img src="./assets/img/img_ceviches/ceviche-camaron.jpg" alt="ceviche de camaron">
+          <h4 class="pt-3 text-center">Ceviche de Camarón</h4>
+          <p class="text-center">Camaron tigre, cebolla roja, zumo de limón, brandy, zumo de naranja, pimentón rojo.</p>
+        </div>        
+      </div>
+      <div class="column nature">
+        <div class="content">
+          <img src="./assets/img/img_ceviches/clang.jpg" alt="ceviche de langosta">
+          <h4 class="pt-3 text-center">Ceviche de Langosta</h4>
+          <p class="text-center">Cola de langosta, cebolla roja, leche de coco, brandy, zumo de naranja, cilantro.</p>
+        </div>        
+      </div>
+
+      <div class="column nature">
+        <div class="content">
+          <img src="./assets/img/img_ceviches/mixto.jpg" alt="ceviche mixto">
+          <h4 class="pt-3 text-center">Ceviche Mixto</h4>
+          <p class="text-center">Robalo, camarón, calamar, pulpo, zumo de limon, cebolla roja, cilantro, tomate, apio.</p>
+        </div>
+      </div>
+      <div class="column nature">
+        <div class="content">
+          <img src="./assets/img/img_ceviches/clangostino.jpg" alt="ceviche de langostino">
+          <h4 class="pt-3 text-center">Ceviche de langostino</h4>
+          <p class="text-center">Langostino U16, zumo de limón, aceite de oliva, pimienta negra, cebolla roja.</p>
+        </div>
+      </div>
+      <div class="column nature">
+        <div class="content">
+          <img src="./assets/img/img_ceviches/cverde.jpg" alt="ceviche verde">
+          <h4 class="pt-3 text-center">Ceviche Verde</h4>
+          <p class="text-center">Camaron tigre, cebolla roja, zumo de limón, esparragos, zumo de naranja, pimentón rojo.</p>
+        </div>        
+      </div>
+      <div class="column nature">
+        <div class="content">
+          <img src="./assets/img/img_ceviches/ctrucha2.png" alt="ceviche de trucha">
+          <h4 class="pt-3 text-center">Ceviche de Trucha</h4>
+          <p class="text-center">Trucha laminada, cebolla roja, zumo de limón, brandy, zumo de naranja. pimentón rojo.</p>
+        </div>        
+      </div>
+
+      <!-- Fuertes -->
+      <div class="column cars">
+        <div class="content">
+          <img src="./img/cars1.jpg" alt="Car">
+          <h4>Antiguo</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column cars">
+        <div class="content">
+          <img src="./img/cars2.jpg" alt="Car">
+          <h4>Rápido</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column cars">
+        <div class="content">
+          <img src="./img/cars3.jpg" alt="Car">
+          <h4>Clásico</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+
+      <!-- Postres -->
+      <div class="column people">
+        <div class="content">
+          <img src="./img/people1.jpg" alt="People">
+          <h4>Niña</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column people">
+        <div class="content">
+          <img src="./img/people2.jpg" alt="People">
+          <h4>Hombre</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column people">
+        <div class="content">
+          <img src="./img/people3.jpg" alt="People">
+          <h4>Mujer</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <script src="./assets/js/portafolio.js"></script>
+</body>
+
+</html>
